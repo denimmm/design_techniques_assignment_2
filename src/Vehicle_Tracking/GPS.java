@@ -1,11 +1,17 @@
 package Vehicle_Tracking;
 
 import java.util.ArrayList;
-
+///@class GPS
+///@brief subject of observers
+///
+///causes the various display observers to update and controls the current location
 public class GPS implements Subject {
 	Location current_loc;
 	ArrayList<Observer> Devices; 
 	
+	///default constructor
+	///
+	///makes a blank gps object
 	public GPS() {
 		Devices = new ArrayList<>();
 		current_loc = new Location(0.0,0.0);
