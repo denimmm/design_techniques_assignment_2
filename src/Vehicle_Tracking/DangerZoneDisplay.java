@@ -4,7 +4,6 @@ public class DangerZoneDisplay implements Observer {
 	private double dangerZoneRadius;
 	private Location dangerZoneCenter;
 	
-	
 	public DangerZoneDisplay(Location location, double r) {
 		this.dangerZoneCenter = location;
 		this.dangerZoneRadius = r;

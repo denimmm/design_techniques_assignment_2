@@ -17,5 +17,6 @@ public class CurrentLocationDisplay implements Observer {
 	@Override
 	public void update(Location new_loc) {
 		this.current=new_loc;
+		displayCurrentLocation();
 	}
 }
