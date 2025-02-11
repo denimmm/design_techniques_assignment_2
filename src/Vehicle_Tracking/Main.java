@@ -33,8 +33,6 @@ public class Main {
         TimeUnit.SECONDS.sleep(1);
         gps.changeLocation(new Location(4, 6));
         TimeUnit.SECONDS.sleep(1);
-        gps.changeLocation(new Location(6, 6));
-        TimeUnit.SECONDS.sleep(1);
         gps.changeLocation(new Location(6, 8));
         TimeUnit.SECONDS.sleep(1);
         gps.changeLocation(new Location(8, 10));

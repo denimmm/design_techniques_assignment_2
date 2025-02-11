@@ -11,6 +11,7 @@ public class TotalTravelledDistanceDisplay implements Observer {
 	@Override
 	public void update(Location new_loc) {
 		distance_traveled= distance_traveled + Location.calculateDistance(this.previous_location, new_loc);
+		System.out.println("Distance Travelled: " + String.format("%.2f", distance_traveled));
 	}
 	
 }
