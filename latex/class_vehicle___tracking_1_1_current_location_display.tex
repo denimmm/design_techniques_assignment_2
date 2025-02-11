@@ -1,0 +1,95 @@
+\doxysection{Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display Class Reference}
+\hypertarget{class_vehicle___tracking_1_1_current_location_display}{}\label{class_vehicle___tracking_1_1_current_location_display}\index{Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}}
+
+
+Class that displays the current location of the vehicle.  
+
+
+Inheritance diagram for Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vehicle___tracking_1_1_current_location_display}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_current_location_display_a5262838b0bf687f71cdde31abffe371d}{Current\+Location\+Display}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_current_location_display_a70f507c05c62cdc782e5e47fd96f50fa}{Current\+Location\+Display}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} l)
+\begin{DoxyCompactList}\small\item\em Parameterized constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_current_location_display_a5f24825a6e8df79accfdafe1fb83d081}{display\+Current\+Location}} ()
+\begin{DoxyCompactList}\small\item\em Displays the current location of the vehicle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_current_location_display_a8ff80d54291eb157320adca33ad66e1f}{update}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} new\+\_\+loc)
+\begin{DoxyCompactList}\small\item\em Updates the current location of the vehicle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that displays the current location of the vehicle. 
+
+This class is an observer of the \doxylink{class_vehicle___tracking_1_1_g_p_s}{GPS} class and displays the current location of the vehicle 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_current_location_display_a5262838b0bf687f71cdde31abffe371d}\index{Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}!CurrentLocationDisplay@{CurrentLocationDisplay}}
+\index{CurrentLocationDisplay@{CurrentLocationDisplay}!Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}}
+\doxysubsubsection{\texorpdfstring{CurrentLocationDisplay()}{CurrentLocationDisplay()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_current_location_display_a5262838b0bf687f71cdde31abffe371d} 
+Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display.\+Current\+Location\+Display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+makes a blank location object \Hypertarget{class_vehicle___tracking_1_1_current_location_display_a70f507c05c62cdc782e5e47fd96f50fa}\index{Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}!CurrentLocationDisplay@{CurrentLocationDisplay}}
+\index{CurrentLocationDisplay@{CurrentLocationDisplay}!Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}}
+\doxysubsubsection{\texorpdfstring{CurrentLocationDisplay()}{CurrentLocationDisplay()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_current_location_display_a70f507c05c62cdc782e5e47fd96f50fa} 
+Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display.\+Current\+Location\+Display (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{l}{}\end{DoxyParamCaption})}
+
+
+
+Parameterized constructor. 
+
+makes a location object with the given location 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_current_location_display_a5f24825a6e8df79accfdafe1fb83d081}\index{Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}!displayCurrentLocation@{displayCurrentLocation}}
+\index{displayCurrentLocation@{displayCurrentLocation}!Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}}
+\doxysubsubsection{\texorpdfstring{displayCurrentLocation()}{displayCurrentLocation()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_current_location_display_a5f24825a6e8df79accfdafe1fb83d081} 
+void Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display.\+display\+Current\+Location (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Displays the current location of the vehicle. 
+
+prints the current location of the vehicle \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\Hypertarget{class_vehicle___tracking_1_1_current_location_display_a8ff80d54291eb157320adca33ad66e1f}\index{Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}!update@{update}}
+\index{update@{update}!Vehicle\_Tracking.CurrentLocationDisplay@{Vehicle\_Tracking.CurrentLocationDisplay}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_current_location_display_a8ff80d54291eb157320adca33ad66e1f} 
+void Vehicle\+\_\+\+Tracking.\+Current\+Location\+Display.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{new\+\_\+loc}{}\end{DoxyParamCaption})}
+
+
+
+Updates the current location of the vehicle. 
+
+updates the current location of the vehicle when it starts moving. 
+\begin{DoxyParams}{Parameters}
+{\em new\+\_\+loc} & the new location of the vehicle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_vehicle___tracking_1_1_observer_ac539d2f7361b8e0f33cdefdd3e350a26}{Vehicle\+\_\+\+Tracking.\+Observer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Vehicle\+\_\+\+Tracking/\mbox{\hyperlink{_current_location_display_8java}{Current\+Location\+Display.\+java}}\end{DoxyCompactItemize}

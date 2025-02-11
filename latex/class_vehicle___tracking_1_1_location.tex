@@ -1,0 +1,146 @@
+\doxysection{Vehicle\+\_\+\+Tracking.\+Location Class Reference}
+\hypertarget{class_vehicle___tracking_1_1_location}{}\label{class_vehicle___tracking_1_1_location}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+
+
+holds an x,y coordinate \doxylink{class_vehicle___tracking_1_1_location}{Location}  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_location_aa1c17396cdd0086cb9778dfb06b6e20f}{Location}} ()
+\begin{DoxyCompactList}\small\item\em default constructor, make s a\+Locaiton of (0,0) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_location_a1ba0cf0a95f46e25a847285dfed25138}{Location}} (double x, double y)
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_location_a095d1f7dc39530c060e221f7258ab860}{Location}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} l)
+\item 
+double \mbox{\hyperlink{class_vehicle___tracking_1_1_location_a7c70099d2253ac582d5c2917d91010d4}{getX}} ()
+\item 
+double \mbox{\hyperlink{class_vehicle___tracking_1_1_location_a916b6f1abe6526e9b05646f563c2f72d}{getY}} ()
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_location_ab780af9d4ad180cca94ceb5761360b93}{setX}} (double x)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_location_a83ab205b2f56627ec5845774cb0fe6ea}{setY}} (double y)
+\item 
+String \mbox{\hyperlink{class_vehicle___tracking_1_1_location_a335a484f0be502ce4138fe4da45e77f8}{to\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_vehicle___tracking_1_1_location_a23c5468efd8da1edb09bebb3d78d5442}{calculate\+Distance}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} l1, \mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} l2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+holds an x,y coordinate \doxylink{class_vehicle___tracking_1_1_location}{Location} 
+
+can perform calculations for distance 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_location_aa1c17396cdd0086cb9778dfb06b6e20f}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!Location@{Location}}
+\index{Location@{Location}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_aa1c17396cdd0086cb9778dfb06b6e20f} 
+Vehicle\+\_\+\+Tracking.\+Location.\+Location (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+default constructor, make s a\+Locaiton of (0,0) 
+
+\Hypertarget{class_vehicle___tracking_1_1_location_a1ba0cf0a95f46e25a847285dfed25138}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!Location@{Location}}
+\index{Location@{Location}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a1ba0cf0a95f46e25a847285dfed25138} 
+Vehicle\+\_\+\+Tracking.\+Location.\+Location (\begin{DoxyParamCaption}\item[{double}]{x}{, }\item[{double}]{y}{}\end{DoxyParamCaption})}
+
+creates a location with x and y parameters 
+\begin{DoxyParams}{Parameters}
+{\em double} & x coordinate\\
+\hline
+{\em double} & y coordinate \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_vehicle___tracking_1_1_location_a095d1f7dc39530c060e221f7258ab860}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!Location@{Location}}
+\index{Location@{Location}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a095d1f7dc39530c060e221f7258ab860} 
+Vehicle\+\_\+\+Tracking.\+Location.\+Location (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{l}{}\end{DoxyParamCaption})}
+
+creates a location with another \doxylink{class_vehicle___tracking_1_1_location}{Location}
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & to copy \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_location_a23c5468efd8da1edb09bebb3d78d5442}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!calculateDistance@{calculateDistance}}
+\index{calculateDistance@{calculateDistance}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{calculateDistance()}{calculateDistance()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a23c5468efd8da1edb09bebb3d78d5442} 
+static double Vehicle\+\_\+\+Tracking.\+Location.\+calculate\+Distance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{l1}{, }\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{l2}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+static method, calculates the distance between two points 
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & first location \\
+\hline
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & second location\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double distance 
+\end{DoxyReturn}
+\Hypertarget{class_vehicle___tracking_1_1_location_a7c70099d2253ac582d5c2917d91010d4}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!getX@{getX}}
+\index{getX@{getX}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a7c70099d2253ac582d5c2917d91010d4} 
+double Vehicle\+\_\+\+Tracking.\+Location.\+getX (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+get the x value of a location\begin{DoxyReturn}{Returns}
+double x value 
+\end{DoxyReturn}
+\Hypertarget{class_vehicle___tracking_1_1_location_a916b6f1abe6526e9b05646f563c2f72d}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!getY@{getY}}
+\index{getY@{getY}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a916b6f1abe6526e9b05646f563c2f72d} 
+double Vehicle\+\_\+\+Tracking.\+Location.\+getY (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+get the y value of a location\begin{DoxyReturn}{Returns}
+double y value 
+\end{DoxyReturn}
+\Hypertarget{class_vehicle___tracking_1_1_location_ab780af9d4ad180cca94ceb5761360b93}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!setX@{setX}}
+\index{setX@{setX}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_ab780af9d4ad180cca94ceb5761360b93} 
+void Vehicle\+\_\+\+Tracking.\+Location.\+setX (\begin{DoxyParamCaption}\item[{double}]{x}{}\end{DoxyParamCaption})}
+
+sets the x value of a location
+\begin{DoxyParams}{Parameters}
+{\em double} & x value \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_vehicle___tracking_1_1_location_a83ab205b2f56627ec5845774cb0fe6ea}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!setY@{setY}}
+\index{setY@{setY}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a83ab205b2f56627ec5845774cb0fe6ea} 
+void Vehicle\+\_\+\+Tracking.\+Location.\+setY (\begin{DoxyParamCaption}\item[{double}]{y}{}\end{DoxyParamCaption})}
+
+sets the y value of a location
+\begin{DoxyParams}{Parameters}
+{\em double} & y value \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_vehicle___tracking_1_1_location_a335a484f0be502ce4138fe4da45e77f8}\index{Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}!toString@{toString}}
+\index{toString@{toString}!Vehicle\_Tracking.Location@{Vehicle\_Tracking.Location}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_location_a335a484f0be502ce4138fe4da45e77f8} 
+String Vehicle\+\_\+\+Tracking.\+Location.\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+converts the coordinate to a string\begin{DoxyReturn}{Returns}
+string "{}x; y"{} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Vehicle\+\_\+\+Tracking/\mbox{\hyperlink{_location_8java}{Location.\+java}}\end{DoxyCompactItemize}

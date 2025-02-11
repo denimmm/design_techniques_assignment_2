@@ -1,0 +1,107 @@
+\doxysection{Vehicle\+\_\+\+Tracking.\+GPS Class Reference}
+\hypertarget{class_vehicle___tracking_1_1_g_p_s}{}\label{class_vehicle___tracking_1_1_g_p_s}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+
+
+subject of observers  
+
+
+Inheritance diagram for Vehicle\+\_\+\+Tracking.\+GPS\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vehicle___tracking_1_1_g_p_s}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_g_p_s_a921084aa381d6d284432dc5096cbd4c6}{GPS}} ()
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_g_p_s_a23d8f8ff4d0fae11452decb794406b3a}{change\+Location}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} l)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_g_p_s_a319e95163bcc8ef3f8f712a647abc991}{register\+Observer}} (\mbox{\hyperlink{interface_vehicle___tracking_1_1_observer}{Observer}} observer)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_g_p_s_a37002fc250929784701b806d48fde627}{remove\+Observer}} (\mbox{\hyperlink{interface_vehicle___tracking_1_1_observer}{Observer}} observer)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_g_p_s_a2084851a86402a6e607954ad10a727e8}{notify\+Observers}} ()
+\begin{DoxyCompactList}\small\item\em calls the update() method on all of the object\textquotesingle{}s observers in the devices array\textquotesingle{} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+subject of observers 
+
+causes the various display observers to update and controls the current location 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_g_p_s_a921084aa381d6d284432dc5096cbd4c6}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}!GPS@{GPS}}
+\index{GPS@{GPS}!Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+\doxysubsubsection{\texorpdfstring{GPS()}{GPS()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_g_p_s_a921084aa381d6d284432dc5096cbd4c6} 
+Vehicle\+\_\+\+Tracking.\+GPS.\+GPS (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+default constructor
+
+makes a blank gps object changes the location of the subject
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & new location\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_g_p_s_a23d8f8ff4d0fae11452decb794406b3a}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}!changeLocation@{changeLocation}}
+\index{changeLocation@{changeLocation}!Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+\doxysubsubsection{\texorpdfstring{changeLocation()}{changeLocation()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_g_p_s_a23d8f8ff4d0fae11452decb794406b3a} 
+void Vehicle\+\_\+\+Tracking.\+GPS.\+change\+Location (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{l}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_vehicle___tracking_1_1_g_p_s_a2084851a86402a6e607954ad10a727e8}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}!notifyObservers@{notifyObservers}}
+\index{notifyObservers@{notifyObservers}!Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+\doxysubsubsection{\texorpdfstring{notifyObservers()}{notifyObservers()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_g_p_s_a2084851a86402a6e607954ad10a727e8} 
+void Vehicle\+\_\+\+Tracking.\+GPS.\+notify\+Observers (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+calls the update() method on all of the object\textquotesingle{}s observers in the devices array\textquotesingle{} 
+
+
+
+Implements \mbox{\hyperlink{interface_vehicle___tracking_1_1_subject_a15debb45e33756bc4158dc6180e0665e}{Vehicle\+\_\+\+Tracking.\+Subject}}.
+
+\Hypertarget{class_vehicle___tracking_1_1_g_p_s_a319e95163bcc8ef3f8f712a647abc991}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}!registerObserver@{registerObserver}}
+\index{registerObserver@{registerObserver}!Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+\doxysubsubsection{\texorpdfstring{registerObserver()}{registerObserver()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_g_p_s_a319e95163bcc8ef3f8f712a647abc991} 
+void Vehicle\+\_\+\+Tracking.\+GPS.\+register\+Observer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_vehicle___tracking_1_1_observer}{Observer}}}]{observer}{}\end{DoxyParamCaption})}
+
+adds observers to the Devices array so they can be updated
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{interface_vehicle___tracking_1_1_observer}{Observer}} & device \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_vehicle___tracking_1_1_subject_a55243e44b012b0c7a4086c8d967c404f}{Vehicle\+\_\+\+Tracking.\+Subject}}.
+
+\Hypertarget{class_vehicle___tracking_1_1_g_p_s_a37002fc250929784701b806d48fde627}\index{Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}!removeObserver@{removeObserver}}
+\index{removeObserver@{removeObserver}!Vehicle\_Tracking.GPS@{Vehicle\_Tracking.GPS}}
+\doxysubsubsection{\texorpdfstring{removeObserver()}{removeObserver()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_g_p_s_a37002fc250929784701b806d48fde627} 
+void Vehicle\+\_\+\+Tracking.\+GPS.\+remove\+Observer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_vehicle___tracking_1_1_observer}{Observer}}}]{observer}{}\end{DoxyParamCaption})}
+
+removes an observer from the Devices Array so it will no longer be updated
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{interface_vehicle___tracking_1_1_observer}{Observer}} & device \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_vehicle___tracking_1_1_subject_aa2095fc05463a83b9573ec63f6e02ca8}{Vehicle\+\_\+\+Tracking.\+Subject}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Vehicle\+\_\+\+Tracking/\mbox{\hyperlink{_g_p_s_8java}{GPS.\+java}}\end{DoxyCompactItemize}

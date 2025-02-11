@@ -1,0 +1,98 @@
+\doxysection{Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display Class Reference}
+\hypertarget{class_vehicle___tracking_1_1_danger_zone_display}{}\label{class_vehicle___tracking_1_1_danger_zone_display}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+
+
+detects dangerous locations  
+
+
+Inheritance diagram for Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vehicle___tracking_1_1_danger_zone_display}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_danger_zone_display_ad7d8f6218488babe1d4453e5af7b723f}{Danger\+Zone\+Display}} ()
+\item 
+\mbox{\hyperlink{class_vehicle___tracking_1_1_danger_zone_display_abf04edc11778ee7008814e93b52cd167}{Danger\+Zone\+Display}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} location, double r)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_danger_zone_display_a16c0dc7c6518bbf55af1839be18a90c4}{set\+Radius}} (double r)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_danger_zone_display_a5bf68f2e590950f0b35ebd1019dacfbc}{set\+Danger\+Zone}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} location)
+\item 
+void \mbox{\hyperlink{class_vehicle___tracking_1_1_danger_zone_display_a7d61e91185d2fe23bd25c439d81334b9}{update}} (\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}} location)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+detects dangerous locations 
+
+warns the user if their location is in the dangerzone 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_danger_zone_display_ad7d8f6218488babe1d4453e5af7b723f}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}!DangerZoneDisplay@{DangerZoneDisplay}}
+\index{DangerZoneDisplay@{DangerZoneDisplay}!Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+\doxysubsubsection{\texorpdfstring{DangerZoneDisplay()}{DangerZoneDisplay()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_danger_zone_display_ad7d8f6218488babe1d4453e5af7b723f} 
+Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display.\+Danger\+Zone\+Display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_vehicle___tracking_1_1_danger_zone_display_abf04edc11778ee7008814e93b52cd167}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}!DangerZoneDisplay@{DangerZoneDisplay}}
+\index{DangerZoneDisplay@{DangerZoneDisplay}!Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+\doxysubsubsection{\texorpdfstring{DangerZoneDisplay()}{DangerZoneDisplay()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_danger_zone_display_abf04edc11778ee7008814e93b52cd167} 
+Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display.\+Danger\+Zone\+Display (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{location}{, }\item[{double}]{r}{}\end{DoxyParamCaption})}
+
+creates a functional dangerzone 
+\begin{DoxyParams}{Parameters}
+{\em location} & of the center of the zone\\
+\hline
+{\em radius} & of the zone as a double \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vehicle___tracking_1_1_danger_zone_display_a5bf68f2e590950f0b35ebd1019dacfbc}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}!setDangerZone@{setDangerZone}}
+\index{setDangerZone@{setDangerZone}!Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+\doxysubsubsection{\texorpdfstring{setDangerZone()}{setDangerZone()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_danger_zone_display_a5bf68f2e590950f0b35ebd1019dacfbc} 
+void Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display.\+set\+Danger\+Zone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{location}{}\end{DoxyParamCaption})}
+
+sets the center of the dangerzone
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & object of the center of the zone \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_vehicle___tracking_1_1_danger_zone_display_a16c0dc7c6518bbf55af1839be18a90c4}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}!setRadius@{setRadius}}
+\index{setRadius@{setRadius}!Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+\doxysubsubsection{\texorpdfstring{setRadius()}{setRadius()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_danger_zone_display_a16c0dc7c6518bbf55af1839be18a90c4} 
+void Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display.\+set\+Radius (\begin{DoxyParamCaption}\item[{double}]{r}{}\end{DoxyParamCaption})}
+
+sets the radius of the dangerzone
+\begin{DoxyParams}{Parameters}
+{\em double} & radius \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_vehicle___tracking_1_1_danger_zone_display_a7d61e91185d2fe23bd25c439d81334b9}\index{Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}!update@{update}}
+\index{update@{update}!Vehicle\_Tracking.DangerZoneDisplay@{Vehicle\_Tracking.DangerZoneDisplay}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_vehicle___tracking_1_1_danger_zone_display_a7d61e91185d2fe23bd25c439d81334b9} 
+void Vehicle\+\_\+\+Tracking.\+Danger\+Zone\+Display.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle___tracking_1_1_location}{Location}}}]{location}{}\end{DoxyParamCaption})}
+
+checks and warns the user each update if they are in the dangerzone
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_vehicle___tracking_1_1_location}{Location}} & of the subject \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_vehicle___tracking_1_1_observer_ac539d2f7361b8e0f33cdefdd3e350a26}{Vehicle\+\_\+\+Tracking.\+Observer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Vehicle\+\_\+\+Tracking/\mbox{\hyperlink{_danger_zone_display_8java}{Danger\+Zone\+Display.\+java}}\end{DoxyCompactItemize}

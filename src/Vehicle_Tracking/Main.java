@@ -1,7 +1,13 @@
 package Vehicle_Tracking;
 import java.util.concurrent.TimeUnit;
-
+/// @Class Main
+/// @brief Main class to simulate the GPS vehicle tracking application.
+///
+/// This class will initiate the GPS and its observers.
+/// The location will be changed using "changeLocation()" to move the vehicle through the designated path
 public class Main {
+	
+	/// @throws InterruptedException is used if the sleep thread is interrupted 
     public static void main(String[] args) throws InterruptedException {
     	
     	Location DANGER_ZONE_CENTER = new Location(6,6);
