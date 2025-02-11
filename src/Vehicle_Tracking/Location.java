@@ -26,7 +26,7 @@ public class Location {
  public void setX(double x) {
 	 this.x=x;
  }
- public void getY(double y) {
+ public void setY(double y) {
 	 this.y=y;
  }
  
