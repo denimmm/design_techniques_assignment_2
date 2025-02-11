@@ -6,12 +6,10 @@ public class GPS implements Subject {
 	Location current_loc;
 	ArrayList<Observer> Devices; 
 	
-	public GPS(){
-		this.current_loc = new Location();
-		this.Devices = new ArrayList<Observer>();
-		
+	public GPS() {
+		Devices = new ArrayList<>();
+		current_loc = new Location(0.0,0.0);
 	}
-	
 	public void changeLocation(Location l) {
 		this.current_loc=l;
 		this.notifyObservers();
@@ -27,10 +25,9 @@ public class GPS implements Subject {
 	}
 	@Override
 	public void notifyObservers() {
-		for(Observer observer : Devices) {
-			observer.update(current_loc);
-			
-			
+
+		for(Observer device:Devices) {
+			device.update(current_loc);
 		}
 	}
 
