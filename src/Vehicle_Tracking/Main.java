@@ -1,6 +1,6 @@
 package Vehicle_Tracking;
 import java.util.concurrent.TimeUnit;
-/// @Class Main
+/// @class Main
 /// @brief Main class to simulate the GPS vehicle tracking application.
 ///
 /// This class will initiate the GPS and its observers.
